@@ -1,0 +1,16 @@
+version: '{build}'
+
+skip_tags: true
+
+platform:
+  - x86
+  - x64
+
+install:
+  - ./script/bootstrap.py
+  - ./script/build.py
+
+test_script:
+  - ./script/test.py
+
+build: off
