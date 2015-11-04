@@ -7,10 +7,10 @@ platform:
   - x64
 
 install:
-  - ./script/bootstrap.py
-  - ./script/build.py
+  - script/bootstrap.py
+  - script/build.py
 
 test_script:
-  - ./script/test.py
+  - script/test.py
 
 build: off
