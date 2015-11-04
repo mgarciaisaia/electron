@@ -7,8 +7,7 @@ platform:
   - x64
 
 install:
-  - python script/bootstrap.py
-  - python script/build.py
+  - python script/cibuild
 
 test_script:
   - python script/test.py
